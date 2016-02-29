@@ -14,6 +14,10 @@
 		9895F0AF1C83E6660032E5F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9895F0AD1C83E6660032E5F0 /* LaunchScreen.storyboard */; };
 		9895F0BA1C83E6660032E5F0 /* UnlimitedScrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9895F0B91C83E6660032E5F0 /* UnlimitedScrollTests.swift */; };
 		9895F0C51C83E6660032E5F0 /* UnlimitedScrollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9895F0C41C83E6660032E5F0 /* UnlimitedScrollUITests.swift */; };
+		9895F0D71C8422140032E5F0 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9895F0D31C8422140032E5F0 /* 1.png */; };
+		9895F0D81C8422140032E5F0 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9895F0D41C8422140032E5F0 /* 2.png */; };
+		9895F0D91C8422140032E5F0 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9895F0D51C8422140032E5F0 /* 3.png */; };
+		9895F0DA1C8422140032E5F0 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9895F0D61C8422140032E5F0 /* 4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		9895F0C01C83E6660032E5F0 /* UnlimitedScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnlimitedScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9895F0C41C83E6660032E5F0 /* UnlimitedScrollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlimitedScrollUITests.swift; sourceTree = "<group>"; };
 		9895F0C61C83E6660032E5F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9895F0D31C8422140032E5F0 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		9895F0D41C8422140032E5F0 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		9895F0D51C8422140032E5F0 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		9895F0D61C8422140032E5F0 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		9895F0A31C83E6660032E5F0 /* UnlimitedScroll */ = {
 			isa = PBXGroup;
 			children = (
+				9895F0D21C8422140032E5F0 /* source */,
 				9895F0A41C83E6660032E5F0 /* AppDelegate.swift */,
 				9895F0A61C83E6660032E5F0 /* ViewController.swift */,
 				9895F0A81C83E6660032E5F0 /* Main.storyboard */,
@@ -123,6 +132,17 @@
 				9895F0C61C83E6660032E5F0 /* Info.plist */,
 			);
 			path = UnlimitedScrollUITests;
+			sourceTree = "<group>";
+		};
+		9895F0D21C8422140032E5F0 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				9895F0D31C8422140032E5F0 /* 1.png */,
+				9895F0D41C8422140032E5F0 /* 2.png */,
+				9895F0D51C8422140032E5F0 /* 3.png */,
+				9895F0D61C8422140032E5F0 /* 4.png */,
+			);
+			path = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +253,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9895F0AF1C83E6660032E5F0 /* LaunchScreen.storyboard in Resources */,
+				9895F0DA1C8422140032E5F0 /* 4.png in Resources */,
+				9895F0D71C8422140032E5F0 /* 1.png in Resources */,
+				9895F0D81C8422140032E5F0 /* 2.png in Resources */,
+				9895F0D91C8422140032E5F0 /* 3.png in Resources */,
 				9895F0AC1C83E6660032E5F0 /* Assets.xcassets in Resources */,
 				9895F0AA1C83E6660032E5F0 /* Main.storyboard in Resources */,
 			);
